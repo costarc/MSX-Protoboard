@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 2N2222
+#
+DEF 2N2222 Q 0 40 N N 1 L N
+F0 "Q" -400 300 50 H V L BNN
+F1 "2N2222" -400 -300 50 H V L BNN
+F2 "TO127P584H533-3" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "R2" 0 0 50 H I L BNN "PARTREV"
+F5 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
+F6 "5.33 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F7 "Micross" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 6 100 100 20 60 N
+P 2 0 0 6 70 -60 100 -100 N
+P 2 0 0 6 100 -100 50 -100 N
+P 2 0 0 6 50 -100 70 -60 N
+P 2 0 0 6 61 -80 12 -56 N
+P 2 0 0 10 60 -95 90 -95 N
+P 2 0 0 10 90 -95 70 -70 N
+P 2 0 0 10 70 -70 60 -90 N
+P 2 0 0 10 60 -90 75 -90 N
+P 2 0 0 10 75 -90 70 -80 N
+S -10 -100 20 100 0 0 0 F
+X ~ 2 -100 0 100 R 40 40 0 0 P 
+X ~ 1 100 -200 100 U 40 40 0 0 P 
+X ~ 3 100 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
